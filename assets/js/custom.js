@@ -1,44 +1,5 @@
 
 
-var swiper = new Swiper(".featured-slider", {
-	spaceBetween:10,
-       loop:true,
-		centeredSlides:true,
-	autoplay:{
-		delay:3500,
-		disableOnInteraction:true,
-	},
-	navigation:{
-		nextEl:".swiper-button-next",
-		prevEl:".swiper-button-prev",
-	},
-        breakpoints: {
-          0: {
-            slidesPerView: 1,
-          },
-		450: {
-           slidesPerView: 2,
-          },
-          768: {
-            slidesPerView: 3,
-          },
-          1024: {
-            slidesPerView: 4,
-          },
-        },
-      });
-      var mySwiper = document.querySelector('.featured-slider').swiper
-
-      $(".featured-slider").mouseenter(function() {
-        mySwiper.autoplay.stop();
-        console.log('slider stopped');
-      });
-    
-      $(".featured-slider").mouseleave(function() {
-        mySwiper.autoplay.start();
-        console.log('slider started again');
-      });
-
 
       // Text show on scroll
       window.addEventListener("scroll", function() {showFunction()});
@@ -63,11 +24,38 @@ var swiper = new Swiper(".featured-slider", {
     //  click on button search to show search form
     $(document).ready(function(){
         $("#search").click(function(){
-            $(".search").toggle();
+            $(".search").css('transform','translateY(0)');
         });
 
         // click on cross button to close search form
         $("#close-btn").click(function(){
-            $(".search").hide();
+            $(".search").css('transform','translateY(-100%)');
         });
+
+
+
+        // click on button to show menu
+        $("#menu-btn").click(function(){
+            $(".nav-2").toggleClass("active");
+        }
+        );
+
+        // click on cross button to close menu
+        $("#menu-close-btn").click(function(){
+            $(".nav-2").removeClass("active");
+        }
+        );
+
+        // click on dropdown button to show dropdown menu
+        $("#dropdown-btn").click(function(){
+            $(".dropdown").slideToggle('slow');
+            }
+        );
+
+       
+
+
+
+
+
     });
