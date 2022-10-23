@@ -370,7 +370,7 @@
 var swiper = new Swiper(".featured-slider", {
 	spaceBetween:10,
        loop:true,
-		centeredSlides:true,
+		centeredSlides:false,
 	autoplay:{
 		delay:3500,
 		disableOnInteraction:true,
@@ -382,15 +382,25 @@ var swiper = new Swiper(".featured-slider", {
         breakpoints: {
           0: {
             slidesPerView: 1,
+            spaceBetween: 20,
           },
-		450: {
+		480: {
            slidesPerView: 2,
+            spaceBetween: 0,
+            slidesPerGroup:2,
+
           },
-          768: {
+          600: {
             slidesPerView: 3,
+            spaceBetween: 0,
+            slidesPerGroup:3,
+
           },
+          
           1024: {
             slidesPerView: 4,
+            spaceBetween: 0,
+            slidesPerGroup:4,
           },
         },
       });
