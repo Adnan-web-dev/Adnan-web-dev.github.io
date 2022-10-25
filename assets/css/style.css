@@ -276,7 +276,7 @@ section.box video {
 .featured .featured-slider .box .image img {
   width: 100%;
   height: 40rem;
-  object-fit:fill;
+  /* object-fit:fill; */
   /* black and white image */
   filter: grayscale(100%);
   transition: all 0.4s linear;
@@ -322,7 +322,7 @@ section.box video {
   display: none;
 }
 .featured .featured-slider .box .card-circle h4{
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #bc8d31;
   text-transform: uppercase;
@@ -1238,7 +1238,7 @@ textarea::placeholder {
       }
      
       .featured .featured-slider .box .card-circle h4{
-        font-size: 1rem;
+        font-size: 0.7rem;
         font-weight: 500;
        
       }
@@ -1447,3 +1447,12 @@ textarea::placeholder {
         height: 3rem !important;
       }
 }
+
+
+
+
+
+
+
+
+
