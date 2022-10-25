@@ -334,7 +334,7 @@ section.box video {
     url("../images/h.jpeg") no-repeat;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 #about .content {
   position: relative;
@@ -454,7 +454,7 @@ textarea::placeholder {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.9);
 }
-#footer .container .row {
+#foot-row {
   padding-top: 5rem;
 }
 #footer .container .row .col-md-4 ul {
@@ -1128,6 +1128,10 @@ textarea::placeholder {
     .container {
       max-width: 100%;
     }
+    .navigation {
+      background: linear-gradient(to right, #8f693a, #bc8d31, #8f693a);
+      height: 3rem !important;
+    }
     .navbar .navbar-nav .nav-item .nav-link {
       padding: 0.5rem 0.5rem;
     }
@@ -1150,12 +1154,224 @@ textarea::placeholder {
         height: 2.5rem;
       }
 
-
-
-      .featured .featured-slider .box:before {
+      .search form .search-box {
+      
+        width: 100%;
+        height: 2.5rem;
         
+      }
+      .search form .search-box input {
+       
+        font-size: 1.5rem;
+       
+      }
+      .search form .search-box input::placeholder {
+        font-size: 1.5rem;
+      }
+      .search form .search-box button {
+        width: 2.5rem;
+        height: 2.5rem;
+     
+      }
+    
+      .search #close-btn {
+        position: absolute;
+        top: 2rem;
+        right: 2rem;
+        font-size: 3rem;
+        color: #fff;
+        cursor: pointer;
+      }
+      .search form .search-box button i {
+        font-size: 1.5rem;
+       
+      }
+      .search form .search-box button:hover {
+        background: #444;
+        color: #fff;
+      }
+      
+  
+
+      .featured .featured-slider .box:before {        
         display: none;
       }
+
+      section.box .slogan-text h1{
+        font-size: 2.5rem!important;
+      }
+
+      /* About */
+
+#about {
+  min-height: auto;
+  height: 100%;
+  width: 100vw;
+  background: linear-gradient(
+      76.34deg,
+      rgba(255, 255, 255, 0.3) 50.4%,
+      rgba(196, 196, 196, 0.3) 50.4%
+    ),
+    url("../images/h.jpeg") no-repeat;
+
+  background-size: 100%;
+  background-position: start;
+  background-attachment: scroll;
+}
+#about .content {
+  position: relative;
+}
+
+#about .content h3 {
+  font-size: 0.8rem;
+  margin: 0.1rem 0;
+}
+#about .content p {
+  font-size: 0.4rem;
+  margin: 0.1rem 0;
+  padding-bottom: 4.3rem;
+}
+
+
+/* Contact Form */
+#contact-form {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0) 50.4%,
+      rgba(196, 196, 196, 0) 50.4%
+    ),
+    url("../images/form_bg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+.contact_form {
+  min-height: 100vh;
+  background: rgba(235, 178, 64, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+.contact_form form {
+  margin-top: 6rem;
+}
+.contact_form form h3 {
+  font-size: 1.5rem;
+  color: #bc8d31;
+  margin: 0.25rem 0;
+  width: 100%;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.contact_form form input,
+select,
+textarea {
+  width: 90%;
+
+  border: 2px solid #bc8d31;
+  
+  font-size: 0.8rem;
+ 
+}
+
+.contact_form form select:first-child {
+  font-size: 0.8rem;
+}
+
+.contact_form form input::placeholder,
+select::placeholder,
+textarea::placeholder {
+  color: #fff;
+  font-size: 0.8rem;
+  text-shadow: 1px 1px 1px #000;
+}
+.contact_form form input[type="submit"] {
+  width: 30%;
+  height: 2rem;
+  border: 2px solid #bc8d31;
+  padding: 0 0.5rem;
+  font-size: 0.8rem;
+  
+}
+.contact_form form input[type="submit"]:hover {
+  background: #bc8d31;
+  color: #fff;
+  border: 1px solid #bc8d31;
+  outline: none;
+}
+
+#footer {
+  width: 100vw;
+  height: 20rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+#foot-row {
+  padding-top: 2.5rem;
+}
+#footer .container .row .col-md-4 h5{
+  font-size: 1rem;
+}
+#footer .container .row .col-md-4 ul li{
+  font-size: 0.8rem;
+}
+#footer .container .row .col-md-4 ul li a {
+  font-size: 0.8rem;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .container .row .col-md-4 a {
+  font-size: 0.8rem;
+  color: #fff;
+  text-decoration: none;
+}
+.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.social-icons li {
+  margin: 0 1rem;
+}
+.social-icons li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+.social-icons li a i {
+  color: #fff;
+  font-size: 0.8rem;
+}
+.social-icons li a:hover {
+  color: #bc8d31;
+}
+/* whatsapp icon floating in the bottom right corener */
+.whatsapp {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 1rem;
+  width: 3rem;
+  height: 3rem;
+  /* background: #25D366; */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+.whatsapp:hover img {
+  /* background: #25D366; */
+  transform: scale(1.1);
+}
    
    
 }
