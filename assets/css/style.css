@@ -1129,7 +1129,6 @@ textarea::placeholder {
       max-width: 100%;
     }
     .navigation {
-      background: linear-gradient(to right, #8f693a, #bc8d31, #8f693a);
       height: 3rem !important;
     }
     .navbar .navbar-nav .nav-item .nav-link {
@@ -1400,6 +1399,9 @@ textarea::placeholder {
     .navbar-brand img {
         width: 2.5rem;
         height: 2.5rem;
+      }
+      .navigation {
+        height: 3rem !important;
       }
 }
 
