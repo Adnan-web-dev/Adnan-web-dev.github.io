@@ -1222,11 +1222,11 @@ textarea::placeholder {
 }
 
 #about .content h3 {
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   margin: 0.1rem 0;
 }
 #about .content p {
-  font-size: 0.4rem;
+  font-size: 0.3rem;
   margin: 0.1rem 0;
   /* padding-bottom: 4.3rem; */
 }
