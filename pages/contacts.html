@@ -15,84 +15,73 @@
 <body>
     
 
-
-    <header>
-        <!-- logo -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
-            <a class="navbar-brand" href="#">
-              
-              <img src="../assets/images/log_nobg.png"  alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+  <header>
+    <!-- logo -->
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand navbar-light bg-light navigation">
+        <a class="navbar-brand" href="#">
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold" href="#">Projects</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold">Contact Us</a>
-                </li>
-              </ul>
-             <!-- clickable search icon in the navbar -->
-            <button id="search">
-              <i class="fas fa-search"></i>
-            </button>
-              <div class="search">
-                <button class="close" id="close-btn">&times;</button>
-                <form action="#">
-                  <div class="search-box" id="search-box">
-                  <input type="text" placeholder="Search">
-                  <button type="submit"><i class="fas fa-search"></i></button>
-                </div>
-                </form>
-              </div>
-
-            <button id="menu-btn" class="ml-2">
-              <i class="fas fa-bars fa-2x"></i>
-            </button>
-            <div class="nav-2 menu" id="navbar-2">
-              <button class="btn" id="menu-close-btn">&times;</button>
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold dropdown-toggle" id="dropdown-btn" href="#">Our Projects</a>
-                  <!-- dropdown of same background in projects -->
-                  <div class="dropdown">
-                    <a class="dropdown-item" href="#">Project 1</a>
-                    <a class="dropdown-item" href="#">Project 2</a>
-                    <a class="dropdown-item" href="#">Project 3</a>
-                    <a class="dropdown-item" href="#">Project 4</a>
-                    <a class="dropdown-item" href="#">Project 5</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold" href="#">Media</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold">Blogs</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold">Events Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold">Inquire Online</a>
-                </li>
-              </ul>
+          <img src="../assets/images/hajian-logo-white.png"  alt="">
+        </a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item d-none d-sm-none d-md-block d-lg-block ">
+              <a class="nav-link font-weight-bold" href="about.html">About Us</a>
+            </li>
+            <!-- <li class="nav-item d-none d-sm-none d-md-block d-lg-block">
+              <a class="nav-link font-weight-bold" href="#">Projects</a>
+            </li> -->
+            
+            <li class="nav-item d-none d-sm-none d-md-block d-lg-block">
+              <a class="nav-link font-weight-bold" href="contacts.html">Contact Us</a>
+            </li>
+          </ul>
+         <!-- clickable search icon in the navbar -->
+        <button id="search">
+          <i class="fas fa-search"></i>
+        </button>
+          <div class="search">
+            <button class="close" id="close-btn">&times;</button>
+            <form action="#">
+              <div class="search-box" id="search-box">
+              <input type="text" placeholder="Search">
+              <button type="submit"><i class="fas fa-search"></i></button>
             </div>
-                  
+            </form>
+          </div>
 
-            </div>
-          </nav>
+        <button id="menu-btn" class="ml-2">
+          <i class="fas fa-bars fa-2x"></i>
+        </button>
+        <div class="nav-2 menu" id="navbar-2">
+          <button class="btn" id="menu-close-btn">&times;</button>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item d-sm-block d-md-none d-lg-none">
+              <a class="nav-link font-weight-bold" href="about.html">About Us</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="gallery.html">Media Gallery</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="blogs.html">Blogs</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="contacts.html">Inquire Online</a>
+            </li>
+          </ul>
+        </div>
+              
 
-    </header>
+        </div>
+      </nav>
 
+</header>
 
     <section class="box">
 
@@ -108,7 +97,7 @@
   <!-- Contact Detaisl -->
   <section class="contact-details">
     <div class="container">
-      <div class="row">
+      <div class="row" >
         <div class="col-md-6 office">
           <h2>Head Office</h2>
           <p> Ring Road Peshawar </p>
@@ -227,7 +216,7 @@
   
 <footer id="footer">
 <div class="container">
-  <div class="row">
+  <div class="row" id="foot-row">
     <div class="col-md-4">
       <h5>Head Office Address</h5>
       <p>Ring Road, Peshawar </p>

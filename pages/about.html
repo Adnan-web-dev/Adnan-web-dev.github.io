@@ -16,89 +16,78 @@
     
 
 
-    <header>
-        <!-- logo -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
-            <a class="navbar-brand" href="#">
-              
-              <img src="../assets/images/log_nobg.png"  alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+  <header>
+    <!-- logo -->
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand navbar-light bg-light navigation">
+        <a class="navbar-brand" href="#">
           
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold" href="#">Projects</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold">Contact Us</a>
-                </li>
-              </ul>
-             <!-- clickable search icon in the navbar -->
-            <button id="search">
-              <i class="fas fa-search"></i>
-            </button>
-              <div class="search">
-                <button class="close" id="close-btn">&times;</button>
-                <form action="#">
-                  <div class="search-box" id="search-box">
-                  <input type="text" placeholder="Search">
-                  <button type="submit"><i class="fas fa-search"></i></button>
-                </div>
-                </form>
-              </div>
-
-            <button id="menu-btn" class="ml-2">
-              <i class="fas fa-bars fa-2x"></i>
-            </button>
-            <div class="nav-2 menu" id="navbar-2">
-              <button class="btn" id="menu-close-btn">&times;</button>
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold dropdown-toggle" id="dropdown-btn" href="#">Our Projects</a>
-                  <!-- dropdown of same background in projects -->
-                  <div class="dropdown">
-                    <a class="dropdown-item" href="#">Project 1</a>
-                    <a class="dropdown-item" href="#">Project 2</a>
-                    <a class="dropdown-item" href="#">Project 3</a>
-                    <a class="dropdown-item" href="#">Project 4</a>
-                    <a class="dropdown-item" href="#">Project 5</a>
-                  </div>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold" href="#">Media</a>
-                </li>
-                
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold">Blogs</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold">Events Gallery</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-weight-bold">Inquire Online</a>
-                </li>
-              </ul>
+          <img src="../assets/images/hajian-logo-white.png"  alt="">
+        </a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+       -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto ">
+            <li class="nav-item d-none d-sm-none d-md-block d-lg-block ">
+              <a class="nav-link font-weight-bold" href="about.html">About Us</a>
+            </li>
+            <!-- <li class="nav-item d-none d-sm-none d-md-block d-lg-block">
+              <a class="nav-link font-weight-bold" href="#">Projects</a>
+            </li> -->
+            
+            <li class="nav-item d-none d-sm-none d-md-block d-lg-block">
+              <a class="nav-link font-weight-bold" href="contacts.html">Contact Us</a>
+            </li>
+          </ul>
+         <!-- clickable search icon in the navbar -->
+        <button id="search">
+          <i class="fas fa-search"></i>
+        </button>
+          <div class="search">
+            <button class="close" id="close-btn">&times;</button>
+            <form action="#">
+              <div class="search-box" id="search-box">
+              <input type="text" placeholder="Search">
+              <button type="submit"><i class="fas fa-search"></i></button>
             </div>
-                  
+            </form>
+          </div>
 
-            </div>
-          </nav>
+        <button id="menu-btn" class="ml-2">
+          <i class="fas fa-bars fa-2x"></i>
+        </button>
+        <div class="nav-2 menu" id="navbar-2">
+          <button class="btn" id="menu-close-btn">&times;</button>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item d-sm-block d-md-none d-lg-none">
+              <a class="nav-link font-weight-bold" href="about.html">About Us</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="gallery.html">Media Gallery</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="blogs.html">Blogs</a>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link font-weight-bold" href="contacts.html">Inquire Online</a>
+            </li>
+          </ul>
+        </div>
+              
 
-    </header>
+        </div>
+      </nav>
 
-
+</header>
     <section class="box">
 
         <div class="bck-dark"></div>
         <div class="slogan-text">
-          <h1 class="display-3">Contact Us</h1>
+          <h1 class="display-3">About Us</h1>
         </div>
           <video src="../assets/videos/shops.mp4" autoplay muted loop ></video>
       </section>
@@ -137,7 +126,7 @@
 
 
 
-  <section class="icons_holder text_justify_center  flex_center clearfix sc_bg">
+  <!-- <section class="icons_holder text_justify_center  flex_center clearfix sc_bg">
     <div class="container">
       <div class="row">
         <div class="col-lg-11 mx-auto">
@@ -147,24 +136,24 @@
           <ul>
             
             <li>
-              <a href="https://zembuilders.com/projects/zem-gardenia/">
-                <img src="https://zembuilders.com/wp-content/uploads/2022/03/gardenia.svg" alt="project logo" title=" ZEM Gardenia">
+              <a href="">
+                <img src="">
               </a>
   
   
             </li>
             
             <li>
-              <a href="https://zembuilders.com/projects/zem-mall/">
-                <img src="https://zembuilders.com/wp-content/uploads/2022/03/zem_mall.svg" alt="project logo" title=" ZEM Mall">
+              <a href="">
+                <img src="">
               </a>
   
   
             </li>
             
             <li>
-              <a href="https://zembuilders.com/projects/liberty-tower/">
-                <img src="https://zembuilders.com/wp-content/uploads/2022/03/liberty_tower.svg" alt="project logo" title=" Liberty Tower">
+              <a href="">
+                <img src="">
               </a>
   
   
@@ -246,28 +235,37 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <hr class="section_break">
 
 
 
-  <section class="content_text sec_space_top sc_bg flex_center clearfix">
+  <section class="content_text sec_space_top sc_bg flex_center clearfix pb-5">
     <div class="container">
   
       <div class="row align-items-center">
         <div class="col-md-6">
           <div class="profile_pic">
-            <img src="https://zembuilders.com/wp-content/uploads/2022/05/ceo_pic_update.png" alt="ceo">
+            <img src="../assets/images/ceo.png" alt="ceo">
             <div class="pic_fade"></div>
           </div>
         </div>
         <div class="col-md-6">
-          <div class="profile_text text_justify">
-            <h2>
-              Zeeshan Akram Qureshi<span>Founder &amp; CEO ZEM Builders</span>          </h2>
-            <p>A quintessential business magnate with decades of experience in the real estate industry; he is a dynamic results-oriented leader with a strong track record of performance in high-paced turnaround settings. With over 15 years of real estate experience, Mr. Zeeshan Qureshi has a demonstrated history of unparalleled business acumen which makes him the perfect candidate for taking ZEM Builders to new heights. </p>
+          <div class="profile_text text-justify ">
+           
             <h2><span>CEO’s Message</span></h2>
-            <p>‘We at ZEM Builders are excited to bring the next generation of real estate to our valued clients; the journey to create the best residential and commercial spaces has not been easy but the trust that our esteemed clients put in us made it all worthwhile. We do not just sell buildings, we sell ideas, dreams, and commitment to transforming lives. We want to add real value to people’s lives by introducing concept buildings, smart homes, and sustainable infrastructure. As thought leaders, we are driven by innovation and dedicated to bringing the best practices of the global real estate industry to Pakistan.’</p>
+            <p>‘I would like to express my deep appreciation to all our clients who have trusted our services over the years, and helped Hajian Group Of Companies to become the successful company that it is today.
+
+              My primary goal for Hajian Group Of Companies has been to take the lead in our industry in both customer service and quality of the property solutions which we offer. We have met this goal and strive to maintain a high level of client care through the support and encouragement we give our employees. By challenging their skills and feeding their passion for knowledge we have built an excellent team of real estate professionals.
+              
+              This is our key advantage a team of dedicated employees who take pride in their roles. Our clients recognize this and the added value it gives to our services.
+              
+              As well as I would like to thank our customers, management and all employees, for their support and continued involvement in our rapid climb to reach our goals and corporate mission and vision'.
+              <br>
+              Best Wishes <br>
+              Haji Farooq Afridi <br>
+              C E O <br>
+              Hajian Group of Companies</p>
           </div>
         </div>
       </div>
@@ -334,52 +332,51 @@
 
   </section>
 
+  <footer id="footer">
+    <div class="container">
+      <div class="row" id="foot-row">
+        <div class="col-md-4">
+          <h5>Head Office Address</h5>
+          <p>Ring Road, Peshawar </p>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact Us</h5>
+          <ul> 
+            <li>Tel: +92 330 556 6022</li>
+            <li>Email: info@hajians.com</li>
+            <li><a href="#">WhatsApp: +92 330 556 6022</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Information</h5>
+          <a href="#">Privacy Policy</a>
+        </div>
+      </div>
+      <div class="row">
+        <!-- social icons in the center -->
+        <div class="col-md-12 text-center">
+          <ul class="social-icons">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+          
+      </div>
+    </div>
   
-<footer id="footer">
-<div class="container">
-  <div class="row">
-    <div class="col-md-4">
-      <h5>Head Office Address</h5>
-      <p>Ring Road, Peshawar </p>
     </div>
-    <div class="col-md-4">
-      <h5>Contact Us</h5>
-      <ul> 
-        <li>Tel: +92 330 556 6022</li>
-        <li>Email: info@hajians.com</li>
-        <li><a href="#">WhatsApp: +92 330 556 6022</a></li>
-      </ul>
+    
+
+
+    <!-- Whatsapp floating icon to bottom right -->
+    <div class="whatsapp">
+      <a href="https://wa.me/923305566022" target="_blank">
+        <img src="../assets/images/whatsapp.png" alt="whatsapp">
+      </a>
+
     </div>
-    <div class="col-md-4">
-      <h5>Information</h5>
-      <a href="#">Privacy Policy</a>
-    </div>
-  </div>
-  <div class="row">
-    <!-- social icons in the center -->
-    <div class="col-md-12 text-center">
-      <ul class="social-icons">
-        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-      </ul>
-      
-  </div>
-</div>
-
-</div>
-
-
-
-<!-- Whatsapp floating icon to bottom right -->
-<div class="whatsapp">
-  <a href="https://wa.me/923305566022" target="_blank">
-    <img src="../assets/images/whatsapp.png" alt="whatsapp">
-  </a>
-
-</div>
-</footer>
+  </footer>
 
 
 

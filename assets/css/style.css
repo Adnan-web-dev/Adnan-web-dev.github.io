@@ -49,10 +49,10 @@ body {
 }
 #navbarSupportedContent .navbar-nav .nav-item .nav-link {
   font-size: 1.2rem !important;
-  color: #000;
+  color: #fff;
 }
 #navbarSupportedContent .navbar-nav .nav-item .nav-link:hover {
-  color: #fff;
+  color: #000;
 }
 
 /* nav-2 with black transparrent backgropund and items in vertical direction */
@@ -104,6 +104,10 @@ body {
 /* dropdown */
 #menu-btn {
   background: transparent;
+  color: #fff;
+}
+#menu-btn:hover{
+  color: #000;
 }
 .dropdown {
   background: rgba(0, 0, 0, 0.9) !important;
@@ -126,6 +130,14 @@ body {
 }
 
 /* Search icon should cover all the page with black background and show search bar */
+#search{
+  color: #fff;
+  padding: 0.5rem 0.5rem;
+
+}
+#search:hover{
+  color: #000;
+}
 .search {
   position: fixed;
   top: 0;
@@ -618,6 +630,7 @@ textarea::placeholder {
   text-align: center;
 }
 
+
 /* Gallery with fancybox */
 #gallery {
   min-height: 100vh;
@@ -656,6 +669,7 @@ textarea::placeholder {
   width: 100%;
   height: 100%;
   padding: 0 3rem;
+ background: rgba(0, 0, 0, 0.5);
   opacity: 1;
   transition: all 0.4s linear;
 }
@@ -664,7 +678,11 @@ textarea::placeholder {
   font-size: 1.5rem;
   text-shadow: 1px 1px 1px #000;
 }
-
+.gallery-div .row .col-md-6 .overlay p{
+    color: #fff;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px #000;
+}
 /* Buttons designing */
 .button-div {
   display: flex;
@@ -1218,7 +1236,12 @@ textarea::placeholder {
         color: #fff;
       }
       
-  
+      /* .featured .featured-slider .box .image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+   */
 
       .featured .featured-slider .box:before {        
         display: none;
@@ -1364,56 +1387,64 @@ textarea::placeholder {
 }
 #footer .container .row .col-md-4 ul li a {
   font-size: 0.8rem;
-  color: #fff;
-  text-decoration: none;
+ 
 }
 #footer .container .row .col-md-4 a {
   font-size: 0.8rem;
-  color: #fff;
-  text-decoration: none;
-}
-.social-icons {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-.social-icons li {
-  margin: 0 1rem;
+ 
 }
 .social-icons li a {
-  color: #fff;
-  text-decoration: none;
   font-size: 0.8rem;
 }
 .social-icons li a i {
-  color: #fff;
   font-size: 0.8rem;
 }
-.social-icons li a:hover {
-  color: #bc8d31;
+
+
+/* align details-div to right side with half black background  */
+.details-div {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
 }
-/* whatsapp icon floating in the bottom right corener */
-.whatsapp {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 1rem;
-  width: 3rem;
-  height: 3rem;
-  /* background: #25D366; */
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  z-index: 999;
+/* small logo in center */
+.details-div .logo {
+  width: 4rem;
+  height: 4rem;
+  top: 32%;
+  left: 5%;
 }
-.whatsapp:hover img {
-  /* background: #25D366; */
-  transform: scale(1.1);
+.details-div .logo img {
+  width: 100%;
+  height: 100%;
 }
+
+/* heading with yellow color and should be in 50% from top in div */
+.details-div h3 {
+  left: 5%;
+  font-size: 2rem;
+}
+.details-div p {
+  left: 5%;
+  width: 90%;
+}
+/* specifications section */
+
+#specification .container h2 {
+
+  font-size: 1.7rem;
+ 
+}
+
+/* table has only border bottom and have gap between table data */
+
+.specification-div table tr td {
+  padding: 1rem 2rem;
+}
+.gallery-div .row .col-md-6 .overlay p{
+  font-size: 0.8rem;
+}
+
+
    
    
 }
