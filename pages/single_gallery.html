@@ -17,48 +17,41 @@
   <body>
     <header>
       <!-- logo -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navigation">
-        <a class="navbar-brand" href="#">
-          <img src="../assets/images/log_nobg.png" alt="" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link font-weight-bold" href="#">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link font-weight-bold" href="#">Projects</a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link font-weight-bold">Contact Us</a>
-            </li>
-          </ul>
-          <!-- clickable search icon in the navbar -->
+      <nav class="navbar navbar-expand-lg navbar-expand-md navbar-expand-sm navbar-expand navbar-light bg-light navigation">
+          <a class="navbar-brand" href="#">
+            
+            <img src="../assets/images/hajian-logo-white.png"  alt="">
+          </a>
+          <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto ">
+              <li class="nav-item d-none d-sm-none d-md-block d-lg-block ">
+                <a class="nav-link font-weight-bold" href="about.html">About Us</a>
+              </li>
+              <!-- <li class="nav-item d-none d-sm-none d-md-block d-lg-block">
+                <a class="nav-link font-weight-bold" href="#">Projects</a>
+              </li> -->
+              
+              <li class="nav-item d-none d-sm-none d-md-block d-lg-block">
+                <a class="nav-link font-weight-bold" href="contacts.html">Contact Us</a>
+              </li>
+            </ul>
+           <!-- clickable search icon in the navbar -->
           <button id="search">
             <i class="fas fa-search"></i>
           </button>
-          <div class="search">
-            <button class="close" id="close-btn">&times;</button>
-            <form action="#">
-              <div class="search-box" id="search-box">
-                <input type="text" placeholder="Search" />
+            <div class="search">
+              <button class="close" id="close-btn">&times;</button>
+              <form action="#">
+                <div class="search-box" id="search-box">
+                <input type="text" placeholder="Search">
                 <button type="submit"><i class="fas fa-search"></i></button>
               </div>
-            </form>
-          </div>
+              </form>
+            </div>
 
           <button id="menu-btn" class="ml-2">
             <i class="fas fa-bars fa-2x"></i>
@@ -66,49 +59,37 @@
           <div class="nav-2 menu" id="navbar-2">
             <button class="btn" id="menu-close-btn">&times;</button>
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item">
-                <a
-                  class="nav-link font-weight-bold dropdown-toggle"
-                  id="dropdown-btn"
-                  href="#"
-                  >Our Projects</a
-                >
-                <!-- dropdown of same background in projects -->
-                <div class="dropdown">
-                  <a class="dropdown-item" href="#">Project 1</a>
-                  <a class="dropdown-item" href="#">Project 2</a>
-                  <a class="dropdown-item" href="#">Project 3</a>
-                  <a class="dropdown-item" href="#">Project 4</a>
-                  <a class="dropdown-item" href="#">Project 5</a>
-                </div>
+              <li class="nav-item d-sm-block d-md-none d-lg-none">
+                <a class="nav-link font-weight-bold" href="about.html">About Us</a>
               </li>
+             
               <li class="nav-item">
-                <a class="nav-link font-weight-bold" href="#">Media</a>
+                <a class="nav-link font-weight-bold" href="gallery.html">Media Gallery</a>
               </li>
-
+              
               <li class="nav-item">
-                <a class="nav-link font-weight-bold">Blogs</a>
+                <a class="nav-link font-weight-bold" href="blogs.html">Blogs</a>
               </li>
+             
               <li class="nav-item">
-                <a class="nav-link font-weight-bold">Events Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link font-weight-bold">Inquire Online</a>
+                <a class="nav-link font-weight-bold" href="contacts.html">Inquire Online</a>
               </li>
             </ul>
           </div>
-        </div>
-      </nav>
-    </header>
+                
 
+          </div>
+        </nav>
+
+  </header>
     <section class="inner_content body_bg sec_space clearfix">
       <div class="container">
-        <h1>Chicago Grill X ZEM Builders MOU Signing</h1>
+        <h1>Media Name 1</h1>
 
         <figure
           class="container-2 row block-gallery-1 block-gallery has-nested-images columns-default is-cropped"
         >
-        <div class="col-md-6">
+        <div class="col-md-6 col-sm-6 col-6">
           <figure class="block-image size-large">
             <a
               href=""
@@ -122,7 +103,7 @@
             /></a>
           </figure>
         </div>
-<div class="col-md-6">
+      <div class="col-md-6 col-sm-6 col-6">
           <figure class="block-image size-large">
             <a
               href=""
@@ -139,53 +120,52 @@
       </div>
     </section>
 
-
     <footer id="footer">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <h5>Head Office Address</h5>
-              <p>Ring Road, Peshawar </p>
-            </div>
-            <div class="col-md-4">
-              <h5>Contact Us</h5>
-              <ul> 
-                <li>Tel: +92 330 556 6022</li>
-                <li>Email: info@hajians.com</li>
-                <li><a href="#">WhatsApp: +92 330 556 6022</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <h5>Information</h5>
-              <a href="#">Privacy Policy</a>
-            </div>
+      <div class="container">
+        <div class="row" id="foot-row">
+          <div class="col-md-4">
+            <h5>Head Office Address</h5>
+            <p>Ring Road, Peshawar </p>
           </div>
-          <div class="row">
-            <!-- social icons in the center -->
-            <div class="col-md-12 text-center">
-              <ul class="social-icons">
-                <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-              </ul>
-              
+          <div class="col-md-4">
+            <h5>Contact Us</h5>
+            <ul> 
+              <li>Tel: +92 330 556 6022</li>
+              <li>Email: info@hajians.com</li>
+              <li><a href="#">WhatsApp: +92 330 556 6022</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Information</h5>
+            <a href="#">Privacy Policy</a>
           </div>
         </div>
+        <div class="row">
+          <!-- social icons in the center -->
+          <div class="col-md-12 text-center">
+            <ul class="social-icons">
+              <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+            
+        </div>
+      </div>
+    
+      </div>
       
-        </div>
-        
-    
-    
-        <!-- Whatsapp floating icon to bottom right -->
-        <div class="whatsapp">
-          <a href="https://wa.me/923305566022" target="_blank">
-            <img src="../assets/images/whatsapp.png" alt="whatsapp">
-          </a>
-    
-        </div>
-      </footer>
-    
+  
+  
+      <!-- Whatsapp floating icon to bottom right -->
+      <div class="whatsapp">
+        <a href="https://wa.me/923305566022" target="_blank">
+          <img src="../assets/images/whatsapp.png" alt="whatsapp">
+        </a>
+  
+      </div>
+    </footer>
+  
 
     <!-- JQUERY -->
     <script src="../assets/js/jquery.min.js"></script>
